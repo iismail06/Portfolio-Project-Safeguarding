@@ -13,7 +13,7 @@ h3 {
 }
 /* Navbar*/
 body {
-  padding-top: 200px; /* adjust if navbar is taller */
+  padding-top: 30px; /* adjust if navbar is taller */
 }
 /* Hero section */
 
@@ -30,5 +30,12 @@ body {
   object-position: center;
 }
 
+/* Signs of Abuse section  */
+
+.signs-of-abuse-card:hover {
+    transform: translateY(-4px);
+    transition: all 0.3s ease;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
 
  
