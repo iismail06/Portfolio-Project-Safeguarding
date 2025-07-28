@@ -11,3 +11,24 @@ h2,
 h3 {
     font-family: 'Poppins', sans-serif;
 }
+/* Navbar*/
+body {
+  padding-top: 200px; /* adjust if navbar is taller */
+}
+/* Hero section */
+
+.hero-carousel {
+  height: 500px; /* or use 100vh for full screen */
+  overflow: hidden;
+}
+
+.hero-carousel img,
+.carousel-img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+
+ 
