@@ -231,17 +231,20 @@ h3 {
   vertical-align: middle;
 }
 
-footer .social-link * {
-  color: #ffffff;
+footer .social-icons a {
+  color: #ffffff; /* white by default */
   font-size: 1.9rem;
-  -webkit-transition: color 0.3s ease-in-out;
-  -o-transition: color 0.3s ease-in-out;
   transition: color 0.3s ease-in-out;
 }
 
-footer .social-link:hover * {
-  color: #5E5F60;
+footer .social-icons a:hover {
+  color: #5E5F60; /* grey on hover */
 }
+
+.social-icons a:not(:last-child) {
+  margin-right: 1rem;
+}
+
 
 
 
