@@ -6,8 +6,7 @@ body {
   font-family: 'Merriweather', sans-serif;
   background-color: #f8f9fa;
   color: #000706;
-  padding-top: 30px;
-  /* adjust if navbar is taller */
+  padding-top: 30px;  /* adjust if navbar is taller */
 }
 
 h1,
@@ -54,32 +53,42 @@ h3 {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='%23441822' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
 }
 
-/* Hero section */
-
-.hero-carousel {
-  height: 500px;
-  /* or use 100vh for full screen */
-  overflow: hidden;
+/* Hero Section Styles */
+.text-primary-color {
+  color: #441822;
 }
 
-.hero-carousel img,
-.carousel-img {
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-  object-position: center;
+.text-secondary-color {
+  color: #000706;
 }
+
+.sub-heading-color {
+  color: #6c757d;
+}
+
+.btn-learn-more {
+  background-color: transparent;
+  border: 2px solid #441822;
+  color: #441822;
+  padding: 0.6rem 1.4rem;
+  font-weight: 600;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-learn-more:hover {
+  background-color: #441822;
+  color: #fff;
+}
+
+
 /* What is Safeguarding Section */
 #what-is-safeguarding {
-  padding: 3rem 1rem;
-  border-top: 1px solid #99858A;
-  border-bottom: 1px solid #99858A;
+  padding: 1.5rem 1rem;
 }
 
 #what-is-safeguarding h2 {
   color: #441822;
   font-weight: 700;
-  font-family: 'Poppins', sans-serif;
   margin-bottom: 2rem;
 }
 
@@ -101,18 +110,6 @@ h3 {
 #what-is-safeguarding ul li {
   margin-bottom: 0.75rem;
   font-size: 1rem;
-}
-.btn-learn-more {
-  border: 2px solid #441822;
-  color: #441822;
-  background-color: transparent;
-  font-weight: 600;
-  transition: all 0.3s ease-in-out;
-}
-
-.btn-learn-more:hover {
-  background-color: #441822;
-  color: #ffffff;
 }
 
 /* Signs section  */
@@ -156,8 +153,7 @@ h3 {
 }
 
 #take-action .subtitle {
-  color: #6c757d;
-  /* muted */
+  color: #6c757d; /* muted */
   font-size: 1rem;
 }
 
@@ -290,12 +286,8 @@ footer .social-icons a:hover {
   margin-right: 1rem;
 }
 
-
-
-
 /*Contact us page */
 
-/* Contact section styles */
 #contact {
   padding: 60px 0;
 }
@@ -330,15 +322,6 @@ footer .social-icons a:hover {
 @media (max-width: 768px) {
    #what-is-safeguarding {
     padding: 2rem 1rem;
-  }
-  .card-container {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .footer-flex {
-    flex-direction: column;
-    align-items: flex-start;
   }
 
   .social-icons {
