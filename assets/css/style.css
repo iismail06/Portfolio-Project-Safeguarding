@@ -4,7 +4,7 @@
 /* Global styles*/
 body {
   font-family: 'Merriweather', sans-serif;
-  background-color: #ffffff;
+  background-color: #f8f9fa;
   color: #000706;
   padding-top: 30px;
   /* adjust if navbar is taller */
@@ -12,7 +12,9 @@ body {
 
 h1,
 h2,
-h3 {
+h3,
+h4,
+h5 {
   font-family: 'Poppins', sans-serif;
 }
 
@@ -21,6 +23,7 @@ h3 {
   color: #441822;
   font-weight: bold;
 }
+
 
 
 /* Navbar Styles */
@@ -67,14 +70,40 @@ h3 {
   object-position: center;
 }
 
-/* Signs of Abuse section  */
+/* Signs section  */
 
-.signs-of-abuse-card:hover {
-  transform: translateY(-4px);
-  transition: all 0.3s ease;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
-
+#signs .section-heading {
+  color: #441822;
+  font-weight: 600;
 }
+
+#signs .signs-card {
+  border: 2px solid #441822;
+  border-radius: 12px;
+  padding: 2rem 1.5rem;
+  background-color: #ffffff;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#signs .signs-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+}
+
+#signs .signs-icon {
+  font-size: 2.5rem;
+  color: #441822;
+}
+
+#signs .signs-card h5 {
+  color: #441822;
+  font-weight: 600;
+}
+
+#signs .signs-card p {
+  color: #000706;
+}
+
 
 /*Take right action section */
 #take-action h2 {
@@ -113,6 +142,77 @@ h3 {
   color: #fff;
 }
 
+/* Get help and support section */
+#support {
+  padding: 4rem 0;
+}
+
+#support .section-heading {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  color: #441822; /* Primary dark red */
+}
+
+#support .accordion-button {
+  font-weight: 600;
+  font-size: 1rem;
+  background-color: #ffffff; /* keep white for contrast */
+  color: #441822; /* primary dark red */
+  transition: background-color 0.2s ease, color 0.2s ease;
+  border: 1px solid #99858A; /* subtle border to match palette */
+}
+
+#support .accordion-button:hover {
+  background-color: #99858A; /* medium taupe shade */
+  color: #ffffff; /* white text on hover */
+}
+
+#support .accordion-button.collapsed {
+  background-color: #ffffff;
+  color: #441822;
+}
+
+#support .accordion-button:not(.collapsed) {
+  background-color: #441822; /* primary dark red when expanded */
+  color: #ffffff;
+  border-color: #441822;
+}
+
+#support .accordion-body {
+  font-size: 0.95rem;
+  color: #000706; /* dark text */
+}
+
+#support ul {
+  padding-left: 1.2rem;
+}
+
+#support ul li {
+  margin-bottom: 0.5rem;
+}
+
+#support a {
+  color: #441822; /* dark red links */
+  text-decoration: underline;
+}
+
+#support a:hover {
+  color: #5E5F60; /* muted gray */
+  text-decoration: none;
+}
+
+#support .btn-outline-primary {
+  border-color: #441822;
+  color: #441822;
+}
+
+#support .btn-outline-primary:hover {
+  background-color: #441822;
+  color: #ffffff;
+}
+
+
 /* Footer Styles */
 .footer {
   background-color: #441822;
@@ -127,19 +227,22 @@ h3 {
 }
 
 
-.footer a {
-  text-decoration: none;
-  color: #ffffff;
-  transition: color 0.3s ease;
-}
-
-.footer a:hover {
-  color: #99858A;
-}
-
 .footer i {
   vertical-align: middle;
 }
+
+footer .social-link * {
+  color: #ffffff;
+  font-size: 1.9rem;
+  -webkit-transition: color 0.3s ease-in-out;
+  -o-transition: color 0.3s ease-in-out;
+  transition: color 0.3s ease-in-out;
+}
+
+footer .social-link:hover * {
+  color: #5E5F60;
+}
+
 
 
 /*Contact us page */
@@ -172,4 +275,22 @@ h3 {
 #contact .btn-primary:hover {
   background-color: #5E5F60;
   border-color: #5E5F60;
+}
+
+
+/* media queries */
+@media (max-width: 768px) {
+  .card-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-flex {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .social-icons {
+    margin-top: 1rem;
+  }
 }
