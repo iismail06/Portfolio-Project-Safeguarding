@@ -19,49 +19,40 @@
 </head>
 
 <body class="d-flex flex-column min-vh-100">
+    <!-- Navbar -->
     <nav id="navbar" class="navbar navbar-expand-lg fixed-top">
-        <!--Adjust the container-fluid element in the navbar to a container class instead.
-This will give the logo and nav items the same outer margin as the rest of our grid.
-
--->
-        <div class="container">
-            <a class="navbar-brand" href="index.html">
-                <img src="assets/images/logo.png" alt="logo image of human that hand Protect over him" class="logo"
-                    style="height: 40px; width: auto;">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav ms-auto">
-
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="#what-is-safeguarding">What is Safeguarding</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="#signs">Signs</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#get-help">Get Help</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="contactus.html">Contact Us</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="" class="btn custom-button-filled ms-lg-3"></a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-
-    </nav>
+  <div class="container">
+    <a class="navbar-brand" href="index.html">
+      <img src="assets/images/logo.png" alt="GuardsUp logo" class="logo" height="40">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+      aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="index.html#what-is-safeguarding">What is Safeguarding</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="index.html#signs">Signs</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="index.html#take-action">Take Action</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="index.html#get-help">Get Help</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contactus.html">Contact Us</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
 
     <!-- Hero Section -->
     <header id="header" class="container section">
@@ -212,7 +203,105 @@ This will give the logo and nav items the same outer margin as the rest of our g
             </div>
         </section>
 
+    <!-- Take the Right Action -->
+    <section class="container my-5" id="take-action">
+  <div class="text-center mb-4">
+    <h2 class="fw-bold">Take the Right Action</h2>
+    <p class="subtitle">Simple steps you can take if you or someone else is at risk</p>
+  </div>
 
+  <div class="row row-cols-1 row-cols-md-2 g-4">
+
+    <!-- 1. Immediate Danger -->
+    <div class="col">
+      <div class="card h-100 action-card">
+        <div class="card-body">
+          <h5 class="card-title"><i class="fas fa-exclamation-triangle me-2"></i>In Immediate Danger</h5>
+          <p class="card-text">Call <strong>999</strong> or go to the nearest police station or A&E. Emergency services are trained to help.</p>
+          <a href="https://www.met.police.uk/advice/advice-and-information/daa/domestic-abuse/what-is-domestic-abuse/" class="btn action-btn" target="_blank">More on Emergency Help</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- 2. Talk to Someone -->
+    <div class="col">
+      <div class="card h-100 action-card">
+        <div class="card-body">
+          <h5 class="card-title"><i class="fas fa-user-friends me-2"></i>Talk to Someone</h5>
+          <p class="card-text">Speak to someone you trust like a friend, GP, teacher, or safeguarding officer.</p>
+          <a href="https://www.childline.org.uk/" class="btn action-btn" target="_blank">Contact Childline</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- 3. Report Anonymously -->
+    <div class="col">
+      <div class="card h-100 action-card">
+        <div class="card-body">
+          <h5 class="card-title"><i class="fas fa-user-secret me-2"></i>Report Anonymously</h5>
+          <p class="card-text">Use our anonymous form to report your concerns without revealing your identity.</p>
+          <a href="contactus.html#contact" class="btn action-btn">Go to Form</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- 4. Document What You See -->
+    <div class="col">
+      <div class="card h-100 action-card">
+        <div class="card-body">
+          <h5 class="card-title"><i class="fas fa-clipboard me-2"></i>Document What You See</h5>
+          <p class="card-text">If it’s safe, note down dates, times, and descriptions of any incidents.</p>
+          <a href="https://www.nspcc.org.uk/keeping-children-safe/reporting-abuse/" class="btn action-btn" target="_blank">NSPCC Advice</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- 5. Use Support Apps -->
+    <div class="col">
+      <div class="card h-100 action-card">
+        <div class="card-body">
+          <h5 class="card-title"><i class="fas fa-mobile-alt me-2"></i>Use Support Apps</h5>
+          <p class="card-text">Apps like Bright Sky offer advice, diary logs, and local support info.</p>
+          <a href="https://www.hestia.org/brightsky" class="btn action-btn" target="_blank">Explore Bright Sky</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- 6. Learn the Signs -->
+    <div class="col">
+      <div class="card h-100 action-card">
+        <div class="card-body">
+          <h5 class="card-title"><i class="fas fa-eye me-2"></i>Learn the Signs</h5>
+          <p class="card-text">Recognising signs of abuse is the first step to helping someone in need.</p>
+          <a href="index.html#signs" class="btn action-btn">View Common Signs</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- 7. Reach Out to Services -->
+    <div class="col">
+      <div class="card h-100 action-card">
+        <div class="card-body">
+          <h5 class="card-title"><i class="fas fa-hands-helping me-2"></i>Reach Out to Services</h5>
+          <p class="card-text">Contact safeguarding teams, support helplines, or charities for help.</p>
+          <a href="index.html#get-help" class="btn action-btn">Get Support</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- 8. Protect Your Privacy -->
+    <div class="col">
+      <div class="card h-100 action-card">
+        <div class="card-body">
+          <h5 class="card-title"><i class="fas fa-shield-alt me-2"></i>Protect Your Privacy</h5>
+          <p class="card-text">Clear your browser history and keep personal info safe when researching help.</p>
+          <a href="https://www.womensaid.org.uk/cover-your-tracks-online/" class="btn action-btn" target="_blank">How to Stay Safe Online</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
         <!-- Get Help and Support  section  -->
         <section class="py-5 bg-light">
             <div class="container">
@@ -326,7 +415,7 @@ This will give the logo and nav items the same outer margin as the rest of our g
                                 <p>If you’re worried about someone’s safety but want to remain anonymous, you can still
                                     report your concerns.</p>
                                 <p>
-                                    <a href="contact.html" class="btn btn-outline-primary">Go to
+                                    <a href="contactus.html#contact" class="btn btn-outline-primary">Go to
                                         Anonymous Report Form</a>
                                 </p>
                             </div>
@@ -337,10 +426,33 @@ This will give the logo and nav items the same outer margin as the rest of our g
         </section>
     </main>
 
-    <footer class="text-center text-muted small py-4">
+  <footer class="footer text-white py-4">
+  <div class="container">
+    <div class="d-flex justify-content-between align-items-start flex-wrap">
+      <!-- Left side: acronym and copyright stacked -->
+      <div class="d-flex flex-column">
         <p class="mb-1">GUARDSUP: Guide, Understand, Act, Respond, Detect, Support, Uphold, Protect.</p>
         <p class="mb-0">&copy; 2025 GuardsUp. All rights reserved.</p>
-    </footer>
+      </div>
+
+      <!-- Right side: social media icons -->
+      <div class="social-icons">
+        <a href="https://www.instagram.com" target="_blank" aria-label="Instagram" class="me-3">
+          <i class="fab fa-instagram fa-lg text-white"></i>
+        </a>
+        <a href="https://www.facebook.com" target="_blank" aria-label="Facebook" class="me-3">
+          <i class="fab fa-facebook fa-lg text-white"></i>
+        </a>
+        <a href="https://www.twitter.com" target="_blank" aria-label="Twitter">
+          <i class="fab fa-twitter fa-lg text-white"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+
 
     <!-- Font Awesome kit -->
     <script src="https://kit.fontawesome.com/aa9af45995.js" crossorigin="anonymous"></script>

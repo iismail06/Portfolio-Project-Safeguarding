@@ -3,22 +3,59 @@
 
 /* Global styles*/
 body {
-    font-family: 'Merriweather', sans-serif;
+  font-family: 'Merriweather', sans-serif;
+  background-color: #ffffff;
+  color: #000706;
+  padding-top: 30px;
+  /* adjust if navbar is taller */
 }
 
 h1,
 h2,
 h3 {
-    font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
-/* Navbar*/
-body {
-  padding-top: 30px; /* adjust if navbar is taller */
+
+h2,
+h3 {
+  color: #441822;
+  font-weight: bold;
 }
+
+
+/* Navbar Styles */
+#navbar {
+  background-color: #ffffff;
+  border-bottom: 2px solid #99858A;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+#navbar .nav-link {
+  color: #441822;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  transition: color 0.3s ease;
+}
+
+#navbar .nav-link:hover,
+#navbar .nav-link.active {
+  color: #99858A;
+}
+
+.navbar-toggler {
+  border-color: #441822;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='%23441822' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
 /* Hero section */
 
 .hero-carousel {
-  height: 500px; /* or use 100vh for full screen */
+  height: 500px;
+  /* or use 100vh for full screen */
   overflow: hidden;
 }
 
@@ -33,9 +70,106 @@ body {
 /* Signs of Abuse section  */
 
 .signs-of-abuse-card:hover {
-    transform: translateY(-4px);
-    transition: all 0.3s ease;
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  transform: translateY(-4px);
+  transition: all 0.3s ease;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+
 }
 
- 
+/*Take right action section */
+#take-action h2 {
+  color: #441822;
+}
+
+#take-action .subtitle {
+  color: #6c757d;
+  /* muted */
+  font-size: 1rem;
+}
+
+#take-action .action-card {
+  border: 2px solid #441822;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#take-action .action-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 0.5rem 1rem rgba(68, 24, 34, 0.2);
+}
+
+#take-action .card-title {
+  color: #441822;
+  font-weight: 600;
+}
+
+#take-action .action-btn {
+  border: 1.5px solid #441822;
+  color: #441822;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+#take-action .action-btn:hover {
+  background-color: #441822;
+  color: #fff;
+}
+
+/* Footer Styles */
+.footer {
+  background-color: #441822;
+  color: #ffffff;
+  border-top: 1px solid #99858A;
+  padding: 1.5rem 0;
+}
+
+.footer p {
+  margin-bottom: 0.3rem;
+  font-size: 0.9rem;
+}
+
+
+.footer a {
+  text-decoration: none;
+  color: #ffffff;
+  transition: color 0.3s ease;
+}
+
+.footer a:hover {
+  color: #99858A;
+}
+
+.footer i {
+  vertical-align: middle;
+}
+
+
+/*Contact us page */
+
+/* Contact section styles */
+#contact {
+  padding: 60px 0;
+}
+
+#contact .form-label {
+  color: #5E5F60;
+}
+
+#contact .form-control {
+  border: 1px solid #99858A;
+  border-radius: 6px;
+  box-shadow: none;
+}
+
+#contact .form-control:focus {
+  border-color: #441822;
+  box-shadow: 0 0 0 0.2rem rgba(68, 24, 34, 0.25);
+}
+
+#contact .btn-primary {
+  background-color: #441822;
+  border-color: #441822;
+}
+
+#contact .btn-primary:hover {
+  background-color: #5E5F60;
+  border-color: #5E5F60;
+}
