@@ -131,35 +131,40 @@ Portfolio-Project-Safeguarding/
 
 ## Wireframes & Design Mockups
 
-Add your screenshots below using the following format:
+*Wireframes and design mockups will be added here when available*
 
-```markdown
 ### Homepage Wireframe
-![Homepage Wireframe](assets/images/wireframe-home.png)
+
+*Homepage wireframe will be added here*
 
 ### Contact Page Wireframe
-![Contact Page Wireframe](assets/images/wireframe-contact.png)
 
+*Contact page wireframe will be added here*
 
 ## Getting Started
 
 ### Prerequisites
+
 - Web browser (Chrome, Firefox, Safari, Edge)
 - Text editor (VS Code recommended)
 - Basic understanding of HTML/CSS
 
 ### Installation
+
 1. Clone the repository:
+
    ```bash
    git clone https://github.com/iismail06/Portfolio-Project-Safeguarding.git
    ```
 
 2. Navigate to the project directory:
+
    ```bash
    cd Portfolio-Project-Safeguarding
    ```
 
 3. Open `index.html` in your web browser or use a local server:
+
    ```bash
    # Using Python 3
    python -m http.server 8000
@@ -177,6 +182,7 @@ Add your screenshots below using the following format:
 - **Desktop**: ≥ 992px
 
 The website adapts seamlessly across all screen sizes with:
+
 - Collapsible navigation on mobile devices
 - Flexible grid layouts
 - Optimized image sizing
@@ -195,11 +201,13 @@ The website adapts seamlessly across all screen sizes with:
 ## External Resources & Links
 
 ### Educational Resources
+
 - [SCIE - Social Care Institute for Excellence](https://www.scie.org.uk/safeguarding/adults/introduction/what-is/)
 - [NSPCC - Keeping Children Safe](https://www.nspcc.org.uk/keeping-children-safe/reporting-abuse/)
 - [Gov.uk - Reporting Abuse](https://www.gov.uk/report-abuse)
 
 ### Support Organizations
+
 - **National Domestic Abuse Helpline**: 0808 2000 247
 - **Samaritans**: 116 123
 - **Childline**: 0800 1111
@@ -209,6 +217,7 @@ The website adapts seamlessly across all screen sizes with:
 ## Testing
 
 ### Manual Testing
+
 - Cross-browser compatibility (Chrome, Firefox, Safari, Edge)
 - Responsive design testing on multiple devices
 - Form functionality and validation
@@ -216,6 +225,7 @@ The website adapts seamlessly across all screen sizes with:
 - External link verification
 
 ### Validation
+
 - HTML validation using W3C Markup Validator
 - CSS validation using W3C CSS Validator
 - Accessibility testing using WAVE Web Accessibility Evaluator
@@ -225,6 +235,7 @@ The website adapts seamlessly across all screen sizes with:
 The website is designed to be deployed on any static hosting platform:
 
 ### GitHub Pages
+
 1. Push code to GitHub repository
 2. Enable GitHub Pages in repository settings
 3. Select main branch as source
@@ -238,7 +249,8 @@ This project is created for educational purposes as part of a web development po
 
 ## Author
 
-**Idil Ismail**
+### Idil Ismail
+
 - GitHub: [@iismail06](https://github.com/iismail06)
 - Project Repository: [Portfolio-Project-Safeguarding](https://github.com/iismail06/Portfolio-Project-Safeguarding)
 
@@ -246,11 +258,12 @@ This project is created for educational purposes as part of a web development po
 
 This project was inspired by the *Boardwalk* board game walkthrough project provided by Code Institute.
 
-Special thanks to the following for their guidance and resources: 
-- Safeguarding organizations – for providing educational content and inspiration  
-- [GOV.UK – Domestic Abuse: How to Get Help](https://www.gov.uk/guidance/domestic-abuse-how-to-get-help)  
-- [NHS – Getting Help for Domestic Violence](https://www.nhs.uk/live-well/getting-help-for-domestic-violence/)  
-- [NSPCC Learning](https://learning.nspcc.org.uk/)  
+Special thanks to the following for their guidance and resources:
+
+- Safeguarding organizations – for providing educational content and inspiration
+- [GOV.UK – Domestic Abuse: How to Get Help](https://www.gov.uk/guidance/domestic-abuse-how-to-get-help)
+- [NHS – Getting Help for Domestic Violence](https://www.nhs.uk/live-well/getting-help-for-domestic-violence/)
+- [NSPCC Learning](https://learning.nspcc.org.uk/)
 - [Haringey Council](https://www.haringey.gov.uk/) – for their informative YouTube video and additional resources
 
 
