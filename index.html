@@ -21,12 +21,13 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
-<body class="d-flex flex-column min-vh-100">
+<body class="d-flex flex-column min-vh-100" data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="80"
+    tabindex="0">
     <!-- Navbar -->
     <nav id="navbar" class="navbar navbar-expand-lg fixed-top">
         <div class="container">
             <a class="navbar-brand" href="index.html">
-                <img src="assets/images/logo.png" alt="GuardsUp logo" class="logo" height="40">
+                <img src="assets/images/logo.png" alt="GuardsUp - Safeguarding Awareness Logo" class="logo" height="40">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
                 aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -35,22 +36,23 @@
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html">Home</a>
+                        <a class="nav-link active" href="index.html" aria-label="Go to Home page">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#what-is-safeguarding">What is Safeguarding</a>
+                        <a class="nav-link" href="#what-is-safeguarding"
+                            aria-label="Go to What is Safeguarding section">What is Safeguarding</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#signs">Signs</a>
+                        <a class="nav-link" href="#signs" aria-label="Go to Signs section">Signs</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#take-action">Take Action</a>
+                        <a class="nav-link" href="#take-action" aria-label="Go to Take Action section">Take Action</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#support">Get Help</a>
+                        <a class="nav-link" href="#support" aria-label="Go to Get Help section">Get Help</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="contactus.html">Contact Us</a>
+                        <a class="nav-link" href="contactus.html" aria-label="Go to Contact Us page">Contact Us</a>
                     </li>
                 </ul>
             </div>
@@ -70,8 +72,8 @@
                     Empowering individuals and communities to recognise, respond, and protect.
                 </p>
 
-                <a href="#support" class="btn btn-learn-more mt-4">Get Help</a>
-
+                <a href="#support" class="btn btn-learn-more mt-4" aria-label="Get Help">Get Help</a>
+                <a href="contactus.html" class="btn btn-learn-more mt-4" aria-label="Report Concern">Report Concern</a>
 
                 <ul class="list-inline mt-4">
                     <li class="list-inline-item me-4">
@@ -112,12 +114,12 @@
                         </div>
 
                         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
-                            data-bs-slide="prev">
+                            data-bs-slide="prev" aria-label="Previous slide">
                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                             <span class="visually-hidden">Previous</span>
                         </button>
                         <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
-                            data-bs-slide="next">
+                            data-bs-slide="next" aria-label="Next slide">
                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
                             <span class="visually-hidden">Next</span>
                         </button>
@@ -155,22 +157,124 @@
                         especially vulnerable people, to live safely, free from abuse and neglect.
                     </p>
                     <p>
-                        It applies in many settings — including schools, healthcare, social care, and communities — and
+                        It applies in many settings including schools, healthcare, social care, and communities and
                         involves identifying risks, taking action, and creating safe environments for everyone.
                     </p>
-                    <ul>
-                        <li>Protects children and adults at risk</li>
-                        <li>Prevents harm and exploitation</li>
-                        <li>Promotes safe and supportive environments</li>
-                    </ul>
+
                     <a href="https://www.scie.org.uk/safeguarding/adults/introduction/what-is/" target="_blank"
                         class="btn btn-learn-more mt-3">
                         Learn more
                     </a>
                 </div>
-
             </div>
+            <section class="py-2 bg-light">
+                <div class="container">
+                    <div class="row g-4">
+
+                        <!-- Card 1: Key Principles -->
+                        <div class="col-md-6">
+                            <div class="card shadow h-100 card-hover">
+                                <div class="card-header text-white" style="background-color: #99858A;">
+                                    <h4 class="mb-0">Key Principles of Safeguarding</h4>
+                                </div>
+                                <div class="card-body">
+                                    <ul class="list-unstyled mb-0">
+                                        <li> Protection – from abuse, harm and neglect</li>
+                                        <li> Prevention – taking action before harm occurs</li>
+                                        <li> Accountability – clear roles and responsibilities</li>
+                                        <li> Empowerment – supporting independence and informed choice</li>
+                                        <li> Partnership – working with communities and professionals</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Card 2: Who Needs Safeguarding -->
+                        <div class="col-md-6">
+                            <div class="card shadow h-100 card-hover">
+                                <div class="card-header text-white" style="background-color: #99858A;">
+                                    <h4 class="mb-0">Who Needs Safeguarding?</h4>
+                                </div>
+                                <div class="card-body">
+                                    <ul class="list-unstyled mb-0">
+                                        <li> Children and young people under 18</li>
+                                        <li> Elderly individuals</li>
+                                        <li> People with physical or learning disabilities</li>
+                                        <li> People with mental health conditions</li>
+                                        <li> Those at risk of exploitation, abuse, or neglect</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
         </section>
+
+        <!-- Safeguarding in Practice -->
+       <section class="practice-section">
+  <div class="container">
+    <div class="practice-content-box">
+      <h2 class="text-center mb-4">Safeguarding in Practice</h2>
+      <p class="lead text-center mb-5">
+        Essential knowledge for creating safe environments and responding effectively to concerns.
+      </p>
+
+      <!-- Section 1 -->
+      <div class="section-divider">
+        <h4 class="mb-3">
+          <i class="fas fa-eye text-danger me-2" aria-hidden="true"></i>
+          How to Recognise Concerns
+        </h4>
+        <p>
+          Recognising concerns means staying alert to changes in behaviour, appearance, or emotional wellbeing. Possible signs of concern include:
+        </p>
+        <ul>
+          <li>Unexplained bruises or injuries</li>
+          <li>Withdrawn, anxious, or fearful behaviour</li>
+          <li>Sudden decline in performance or engagement</li>
+          <li>Reluctance to go home or talk about their life outside</li>
+          <li>Overly aggressive or inappropriate behaviour</li>
+        </ul>
+        <p>
+          Safeguarding is everyone's responsibility. If something feels wrong, take action — even subtle signs may indicate a problem.
+        </p>
+      </div>
+
+      <!-- Section 2 -->
+      <div>
+        <h4 class="mb-3">
+          <i class="fas fa-hands-helping text-success me-2" aria-hidden="true"></i>
+          How to Respond
+        </h4>
+        <p>
+          If someone discloses a concern or you suspect abuse, here’s how to respond responsibly:
+        </p>
+        <ul>
+          <li>Stay calm and listen carefully without interrupting</li>
+          <li>Do not ask leading questions or push for details</li>
+          <li>Reassure the person they are doing the right thing</li>
+          <li>Report the concern immediately to the safeguarding lead</li>
+          <li>Record what you’ve seen or heard factually and accurately</li>
+          <li>Never promise to keep things secret if abuse is suspected</li>
+        </ul>
+        <p>
+          Your response can have a significant impact. Always follow your organisation’s safeguarding procedures promptly.
+        </p>
+      </div>
+
+      <!-- Buttons -->
+      <div class="text-center mt-5">
+        <p class="mb-4 fw-semibold">Need to take action or talk to someone?</p>
+        <a href="contactus.html" class="btn btn-learn-more mt-4" aria-label="Report a safeguarding concern">Report a Concern</a>
+        <a href="index.html#support" class="btn btn-learn-more mt-4" aria-label="Get help or support with safeguarding issues">Get Help</a>
+      </div>
+    </div>
+  </div>
+</section>
+
         <!-- Signs section  -->
 
         <section id="signs" class="py-3">
@@ -354,7 +458,8 @@
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="flush-headingOne">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#flush-collapseOne">
+                                data-bs-target="#flush-collapseOne"
+                                aria-label="Expand for emergency and immediate help">
                                 Emergency and Immediate Help
                             </button>
                         </h2>
@@ -379,7 +484,8 @@
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="flush-headingTwo">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#flush-collapseTwo">
+                                data-bs-target="#flush-collapseTwo"
+                                aria-label="Expand for safeguarding support and guidance">
                                 Safeguarding Support and Guidance
                             </button>
                         </h2>
@@ -403,11 +509,11 @@
                     </div>
 
                     <!-- Local Authority Safeguarding Contacts -->
-                    <!-- Local Authority Safeguarding Contacts -->
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="flush-headingThree">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#flush-collapseThree">
+                                data-bs-target="#flush-collapseThree"
+                                aria-label="Expand for local authority safeguarding contacts">
                                 Local Authority Safeguarding Contacts
                             </button>
                         </h2>
@@ -429,7 +535,7 @@
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="flush-headingFour">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#flush-collapseFour">
+                                data-bs-target="#flush-collapseFour" aria-label="Expand for mental health support">
                                 Mental Health Support
                             </button>
                         </h2>
@@ -454,7 +560,8 @@
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="flush-headingFive">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#flush-collapseFive">
+                                data-bs-target="#flush-collapseFive"
+                                aria-label="Expand for reporting concerns anonymously">
                                 Report Concerns Anonymously
                             </button>
                         </h2>
@@ -485,13 +592,13 @@
                 </div>
 
                 <div class="social-icons">
-                    <a href="https://www.instagram.com" target="_blank" aria-label="Instagram">
+                    <a href="https://www.instagram.com" target="_blank" aria-label="Visit our Instagram page">
                         <i class="fab fa-instagram fa-lg"></i>
                     </a>
-                    <a href="https://www.facebook.com" target="_blank" aria-label="Facebook">
+                    <a href="https://www.facebook.com" target="_blank" aria-label="Visit our Facebook page">
                         <i class="fab fa-facebook fa-lg"></i>
                     </a>
-                    <a href="https://www.twitter.com" target="_blank" aria-label="Twitter">
+                    <a href="https://www.twitter.com" target="_blank" aria-label="Visit our Twitter page">
                         <i class="fab fa-twitter fa-lg"></i>
                     </a>
                 </div>

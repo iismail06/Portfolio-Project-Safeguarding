@@ -20,7 +20,7 @@
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
-<body class="d-flex flex-column min-vh-100">
+<body class="d-flex flex-column min-vh-100" data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="80" tabindex="0">
 
   <!-- Navbar -->
   <nav id="navbar" class="navbar navbar-expand-lg fixed-top">
@@ -35,22 +35,22 @@
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
       <ul class="navbar-nav ms-auto">
         <li class="nav-item">
-          <a class="nav-link" href="index.html">Home</a>
+          <a class="nav-link" href="index.html" aria-label="Go to Home page">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="index.html#what-is-safeguarding">What is Safeguarding</a>
+          <a class="nav-link" href="index.html#what-is-safeguarding" aria-label="Go to What is Safeguarding section">What is Safeguarding</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="index.html#signs">Signs</a>
+          <a class="nav-link" href="index.html#signs" aria-label="Go to Signs section">Signs</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="index.html#take-action">Take Action</a>
+          <a class="nav-link" href="index.html#take-action" aria-label="Go to Take Action section">Take Action</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="index.html#support">Get Help</a>
+          <a class="nav-link" href="index.html#support" aria-label="Go to Get Help section">Get Help</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="contactus.html">Contact Us</a>
+          <a class="nav-link active" href="contactus.html" aria-label="Go to Contact Us page">Contact Us</a>
         </li>
       </ul>
     </div>
@@ -72,19 +72,19 @@
           <form action="success.html" method="get">
             <div class="mb-3">
               <label for="name" class="form-label">Your Name (Optional)</label>
-              <input type="text" class="form-control" id="name" name="name">
+              <input type="text" class="form-control" id="name" name="name" aria-label="Your full name">
             </div>
             <div class="mb-3">
               <label for="phone" class="form-label">Your Phone Number (Optional)</label>
-              <input type="number" class="form-control" id="phone" name="phone">
+              <input type="number" class="form-control" id="phone" name="phone" aria-label="Your phone number">
             </div>
             <div class="mb-3">
               <label for="email" class="form-label">Your Email (Optional)</label>
-              <input type="email" class="form-control" id="email" name="email">
+              <input type="email" class="form-control" id="email" name="email" aria-label="Your email address">
             </div>
             <div class="mb-3">
               <label for="message" class="form-label">Your Message</label>
-              <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+              <textarea class="form-control" id="message" name="message" rows="4" required aria-label="Your message"></textarea>
             </div>
             <button type="submit" class="btn-learn-more">Send</button>
           </form>
