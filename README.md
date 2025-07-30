@@ -28,6 +28,7 @@ GuardsUp is a comprehensive safeguarding awareness website designed to educate, 
 - [Acknowledgments](#acknowledgments)
 
 ---
+
 ## Project Overview
 
 This website addresses the critical need for accessible safeguarding information by providing:
@@ -48,7 +49,7 @@ This website addresses the critical need for accessible safeguarding information
 - Bootstrap 5 framework ensuring consistent user experience  
 - Mobile-first approach with optimized navigation
 
-###  Educational Content
+### Educational Content
 
 - **What is Safeguarding**: Comprehensive introduction with embedded video content  
 - **Signs of Abuse**: Visual cards highlighting different types of abuse (emotional, physical, sexual, financial, coercive control, digital)  
@@ -61,7 +62,8 @@ This website addresses the critical need for accessible safeguarding information
 - **Mental Health Support**: Links to organizations like Samaritans, Mind, and Childline  
 - **Anonymous Reporting**: Secure contact form for confidential reporting
 
-###  User Experience
+### User Experience
+
 - **Intuitive Navigation**: Clear menu structure with smooth scrolling to sections
 - **Visual Hierarchy**: Consistent typography using Poppins and Merriweather fonts
 - **Interactive Elements**: Hover effects, carousel showcase, and accordion-style information
@@ -70,24 +72,48 @@ This website addresses the critical need for accessible safeguarding information
 ## Technologies Used
 
 ### Frontend
+
 - **HTML5**: Semantic markup structure
 - **CSS3**: Custom styling with modern techniques
 - **Bootstrap 5.3.7**: Responsive framework and components
 - **JavaScript**: Bootstrap JS for interactive components
 
 ### External Libraries & APIs
+
 - **Font Awesome**: Icon library for visual elements
 - **Google Fonts**: Poppins and Merriweather typography
 - **YouTube API**: Embedded educational video content
 
 ### Tools & Resources
+
 - **favicon.io**: Favicon generation
 - **VS Code**: Development environment
 - **Git**: Version control
 
 ## Project Structure
 
-```
+Portfolio-Project-Safeguarding/
+├── index.html              # Main homepage
+├── contactus.html           # Contact and reporting form
+├── success.html             # Form submission confirmation
+├── README.md               # Project documentation
+├── assets/
+│   ├── css/
+│   │   └── style.css       # Custom styles
+│   ├── favicon/            # Favicon files
+│   │   ├── apple-touch-icon.png
+│   │   ├── favicon-16x16.png
+│   │   ├── favicon-32x32.png
+│   │   └── favicon.ico
+│   └── images/             # Project images
+│       ├── logo.png
+│       ├── image-1.png     # Carousel images
+│       ├── image-2.png
+│       ├── image-3.png
+│       ├── image-4.png
+│       └── image-5.png
+
+```text
 Portfolio-Project-Safeguarding/
 ├── index.html              # Main homepage
 ├── contactus.html           # Contact and reporting form
@@ -110,9 +136,10 @@ Portfolio-Project-Safeguarding/
 │       └── image-5.png
 ```
 
-##  Design Choices
+## Design Choices
 
 ### Color Palette
+
 - **Primary**: #441822 (Deep burgundy) - Authority and trust
 - **Secondary**: #99858A (Warm taupe) - Comfort and approachability  
 - **Accent**: #000706 (Near black) - Readability and contrast
@@ -120,10 +147,12 @@ Portfolio-Project-Safeguarding/
 - **Background**: #f8f9fa (Light gray) - Clean, professional backdrop
 
 ### Typography
+
 - **Headings**: Poppins (modern, readable sans-serif)
 - **Body Text**: Merriweather (professional serif for enhanced readability)
 
 ### Visual Elements
+
 - Clean, professional layout promoting trust and credibility
 - Consistent spacing and alignment
 - Subtle hover effects and transitions
@@ -131,15 +160,15 @@ Portfolio-Project-Safeguarding/
 
 ## Wireframes & Design Mockups
 
-*Wireframes and design mockups will be added here when available*
+### Wireframes and design mockups will be added here when available
 
 ### Homepage Wireframe
 
-*Homepage wireframe will be added here*
+#### Homepage wireframe will be added here
 
 ### Contact Page Wireframe
 
-*Contact page wireframe will be added here*
+#### Contact page wireframe will be added here
 
 ## Getting Started
 
@@ -241,8 +270,6 @@ The website is designed to be deployed on any static hosting platform:
 3. Select main branch as source
 4. Access via: `https://username.github.io/repository-name`
 
-
-
 ## License
 
 This project is created for educational purposes as part of a web development portfolio.
@@ -265,8 +292,6 @@ Special thanks to the following for their guidance and resources:
 - [NHS – Getting Help for Domestic Violence](https://www.nhs.uk/live-well/getting-help-for-domestic-violence/)
 - [NSPCC Learning](https://learning.nspcc.org.uk/)
 - [Haringey Council](https://www.haringey.gov.uk/) – for their informative YouTube video and additional resources
-
-
 
 ---
 
