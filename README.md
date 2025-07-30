@@ -4,42 +4,70 @@
 
 GuardsUp is a comprehensive safeguarding awareness website designed to educate, inform, and empower individuals and communities to recognize, respond to, and prevent abuse. The platform serves as a vital resource for understanding safeguarding principles and taking appropriate action when concerns arise.
 
-**GUARDSUP: Guide, Understand, Act, Respond, Detect, Support, Uphold, Protect.**
+**GUARDSUP**:  
+**G**uide, **U**nderstand, **A**ct, **R**espond, **D**etect, **S**upport, **U**phold, **P**rotect
 
-## 🎯 Project Overview
+---
+
+## Table of Contents
+
+- [Project Overview](#project-overview)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Project Structure](#project-structure)
+- [Design Choices](#design-choices)
+- [Wireframes & Design Mockups](#wireframes--design-mockups)
+- [Getting Started](#getting-started)
+- [Responsive Breakpoints](#responsive-breakpoints)
+- [Accessibility Features](#accessibility-features)
+- [External Resources & Links](#external-resources--links)
+- [Testing](#testing)
+- [Deployment](#deployment)
+- [License](#license)
+- [Author](#author)
+- [Acknowledgments](#acknowledgments)
+
+---
+## Project Overview
 
 This website addresses the critical need for accessible safeguarding information by providing:
-- Clear explanations of what safeguarding means
-- Recognition of different types of abuse
-- Practical guidance on taking appropriate action
-- Comprehensive support resources and contact information
+
+- Clear explanations of what safeguarding means  
+- Recognition of different types of abuse  
+- Practical guidance on taking appropriate action  
+- Comprehensive support resources and contact information  
 - Anonymous reporting capabilities
 
-## 🌟 Features
+---
 
-### 📱 Responsive Design
-- Fully responsive layout that works seamlessly across desktop, tablet, and mobile devices
-- Bootstrap 5 framework ensuring consistent user experience
+## Features
+
+### Responsive Design
+
+- Fully responsive layout that works seamlessly across desktop, tablet, and mobile devices  
+- Bootstrap 5 framework ensuring consistent user experience  
 - Mobile-first approach with optimized navigation
 
-### 🔍 Educational Content
-- **What is Safeguarding**: Comprehensive introduction with embedded video content
-- **Signs of Abuse**: Visual cards highlighting different types of abuse (emotional, physical, sexual, financial, coercive control, digital)
+###  Educational Content
+
+- **What is Safeguarding**: Comprehensive introduction with embedded video content  
+- **Signs of Abuse**: Visual cards highlighting different types of abuse (emotional, physical, sexual, financial, coercive control, digital)  
 - **Take Action**: Step-by-step guidance on appropriate responses to safeguarding concerns
 
-### 🆘 Support Resources
-- **Emergency Contacts**: Quick access to emergency services and helplines
-- **Local Authority Information**: Guidance on contacting local safeguarding teams
-- **Mental Health Support**: Links to organizations like Samaritans, Mind, and Childline
+### Support Resources
+
+- **Emergency Contacts**: Quick access to emergency services and helplines  
+- **Local Authority Information**: Guidance on contacting local safeguarding teams  
+- **Mental Health Support**: Links to organizations like Samaritans, Mind, and Childline  
 - **Anonymous Reporting**: Secure contact form for confidential reporting
 
-### 🎨 User Experience
+###  User Experience
 - **Intuitive Navigation**: Clear menu structure with smooth scrolling to sections
 - **Visual Hierarchy**: Consistent typography using Poppins and Merriweather fonts
 - **Interactive Elements**: Hover effects, carousel showcase, and accordion-style information
 - **Accessibility**: Semantic HTML structure with proper alt text and ARIA labels
-
-## 🛠️ Technologies Used
+  
+## Technologies Used
 
 ### Frontend
 - **HTML5**: Semantic markup structure
@@ -57,7 +85,7 @@ This website addresses the critical need for accessible safeguarding information
 - **VS Code**: Development environment
 - **Git**: Version control
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 Portfolio-Project-Safeguarding/
@@ -82,7 +110,7 @@ Portfolio-Project-Safeguarding/
 │       └── image-5.png
 ```
 
-## 🎨 Design Choices
+##  Design Choices
 
 ### Color Palette
 - **Primary**: #441822 (Deep burgundy) - Authority and trust
@@ -101,7 +129,19 @@ Portfolio-Project-Safeguarding/
 - Subtle hover effects and transitions
 - Card-based design for easy content scanning
 
-## 🚀 Getting Started
+## Wireframes & Design Mockups
+
+Add your screenshots below using the following format:
+
+```markdown
+### Homepage Wireframe
+![Homepage Wireframe](assets/images/wireframe-home.png)
+
+### Contact Page Wireframe
+![Contact Page Wireframe](assets/images/wireframe-contact.png)
+
+
+## Getting Started
 
 ### Prerequisites
 - Web browser (Chrome, Firefox, Safari, Edge)
@@ -130,7 +170,7 @@ Portfolio-Project-Safeguarding/
 
 4. Access the website at `http://localhost:8000`
 
-## 📱 Responsive Breakpoints
+## Responsive Breakpoints
 
 - **Mobile**: < 768px
 - **Tablet**: 768px - 991px
@@ -142,7 +182,7 @@ The website adapts seamlessly across all screen sizes with:
 - Optimized image sizing
 - Touch-friendly interactive elements
 
-## ♿ Accessibility Features
+## Accessibility Features
 
 - Semantic HTML5 elements
 - Proper heading hierarchy (h1-h5)
@@ -152,7 +192,7 @@ The website adapts seamlessly across all screen sizes with:
 - Focus indicators for interactive elements
 - Screen reader compatible structure
 
-## 🔗 External Resources & Links
+## External Resources & Links
 
 ### Educational Resources
 - [SCIE - Social Care Institute for Excellence](https://www.scie.org.uk/safeguarding/adults/introduction/what-is/)
@@ -166,7 +206,7 @@ The website adapts seamlessly across all screen sizes with:
 - **Women's Aid**: [womensaid.org.uk](https://www.womensaid.org.uk)
 - **Men's Advice Line**: [mensadviceline.org.uk](https://www.mensadviceline.org.uk)
 
-## 🧪 Testing
+## Testing
 
 ### Manual Testing
 - Cross-browser compatibility (Chrome, Firefox, Safari, Edge)
@@ -180,7 +220,7 @@ The website adapts seamlessly across all screen sizes with:
 - CSS validation using W3C CSS Validator
 - Accessibility testing using WAVE Web Accessibility Evaluator
 
-## 🚀 Deployment
+## Deployment
 
 The website is designed to be deployed on any static hosting platform:
 
@@ -192,24 +232,27 @@ The website is designed to be deployed on any static hosting platform:
 
 
 
-## 📄 License
+## License
 
 This project is created for educational purposes as part of a web development portfolio.
 
-## 👨‍💻 Author
+## Author
 
 **Idil Ismail**
 - GitHub: [@iismail06](https://github.com/iismail06)
 - Project Repository: [Portfolio-Project-Safeguarding](https://github.com/iismail06/Portfolio-Project-Safeguarding)
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
-- Code Institute for project guidance and learning materials
-- Safeguarding organizations for educational resources and inspiration
-https://www.gov.uk/guidance/domestic-abuse-how-to-get-help
-https://www.nhs.uk/live-well/getting-help-for-domestic-violence/
-https://learning.nspcc.org.uk/ 
-haringeycouncil
+This project was inspired by the *Boardwalk* board game walkthrough project provided by Code Institute.
+
+Special thanks to the following for their guidance and resources: 
+- Safeguarding organizations – for providing educational content and inspiration  
+- [GOV.UK – Domestic Abuse: How to Get Help](https://www.gov.uk/guidance/domestic-abuse-how-to-get-help)  
+- [NHS – Getting Help for Domestic Violence](https://www.nhs.uk/live-well/getting-help-for-domestic-violence/)  
+- [NSPCC Learning](https://learning.nspcc.org.uk/)  
+- [Haringey Council](https://www.haringey.gov.uk/) – for their informative YouTube video and additional resources
+
 
 
 ---
