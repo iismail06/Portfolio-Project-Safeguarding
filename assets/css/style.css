@@ -80,6 +80,12 @@ h3 {
   color: #fff;
 }
 
+/* Carousel Styles */
+.carousel-img {
+  height: 350px;
+  object-fit: cover;
+}
+
 
 /* What is Safeguarding Section */
 #what-is-safeguarding {
