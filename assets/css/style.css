@@ -128,43 +128,44 @@ h5 {
 
 /* Best practices of safeguarding */
 
-  .practice-section {
-    background-color: #f8f9fa; /* light grey background */
-    padding: 1.5rem 0;
-  }
+ /* Section Styles */
+.safeguarding-practice-section {
+  background-color: transparent;
+}
 
-  .practice-content-box {
-    background-color: #ffffff;
-    padding: 0.5rem 0.5rem;
-    border-radius: 12px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
-    max-width: 900px;
-    margin: 0 auto;
-  }
+/* Centered white box around heading and buttons */
+.text-box {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
 
-  .practice-section h2 {
-    color: #441822;
-    font-weight: 700;
-  }
+/* Heading styles */
+.section-heading {
+  color: #441822;
+}
 
-  .practice-section h4 {
-    color: #99858A;
-    font-weight: 600;
-  }
+/* Paragraph styles */
+.section-subtext {
+  color: #000706;
+}
 
-  .practice-section ul {
-    padding-left: 1.2rem;
-  }
+/* Button consistency */
+.btn-learn-more.white-btn {
+  background-color: #ffffff;
+  color: #441822;
+  border: 1px solid #99858A;
+  padding: 0.5rem 1.25rem;
+  font-weight: 500;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
 
-  .practice-section ul li {
-    margin-bottom: 0.5rem;
-  }
+.btn-learn-more.white-btn:hover {
+  background-color: #99858A;
+  color: #ffffff;
+}
 
-  .section-divider {
-    border-bottom: 2px solid #99858A;
-    padding-bottom: 2rem;
-    margin-bottom: 3rem;
-  }
 
 /* Signs section */
 
@@ -207,7 +208,7 @@ h5 {
 }
 
 #take-action .subtitle {
-  color: #6c757d; /* muted */
+  color:#000706;
   font-size: 1rem;
 }
 
@@ -339,6 +340,24 @@ footer .social-icons a:hover {
 .social-icons a:not(:last-child) {
   margin-right: 1rem;
 }
+/* Modal Styles */
+  .btn-primary {
+    background-color: #441822;
+    border-color: #441822;
+  }
+
+  .btn-primary:hover {
+    background-color: #2e1017;
+    border-color: #2e1017;
+  }
+
+  .modal-header {
+    border-bottom: none;
+  }
+
+  .modal-title {
+    font-weight: 600;
+  }
 
 /*Contact us page */
 
