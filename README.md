@@ -242,7 +242,7 @@ The website adapts seamlessly across all screen sizes with:
 
 - [SCIE - Social Care Institute for Excellence](https://www.scie.org.uk/safeguarding/adults/introduction/what-is/)
 - [NSPCC - Keeping Children Safe](https://www.nspcc.org.uk/keeping-children-safe/reporting-abuse/)
-- [Gov.uk - Reporting Abuse](https://www.gov.uk/report-abuse)
+- [Gov.uk - Reporting Abuse](https://www.gov.uk/report-domestic-abuse)
 
 ### Support Organizations
 
