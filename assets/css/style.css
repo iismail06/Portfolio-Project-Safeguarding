@@ -6,7 +6,8 @@ body {
   font-family: 'Merriweather', sans-serif;
   background-color: #f8f9fa;
   color: #000706;
-  padding-top: 30px;  /* adjust if navbar is taller */
+  padding-top: 30px;
+  /* adjust if navbar is taller */
 }
 
 h1,
@@ -22,10 +23,6 @@ h2,
 h3 {
   color: #441822;
   font-weight: bold;
-}
-h5 {
-  color: #99858A;
-  font-weight: 600;
 }
 
 
@@ -121,14 +118,22 @@ h5 {
 }
 
 #what-is-safeguarding .card-hover:hover {
-    transform: translateY(-5px);
-    transition: transform 0.3s ease;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
-  }
+  transform: translateY(-5px);
+  transition: transform 0.3s ease;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+/* White background text box */
+.white-box {
+  background-color: #ffffff;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
 
 /* Best practices of safeguarding */
 
- /* Section Styles */
 .safeguarding-practice-section {
   background-color: transparent;
 }
@@ -208,7 +213,7 @@ h5 {
 }
 
 #take-action .subtitle {
-  color:#000706;
+  color: #000706;
   font-size: 1rem;
 }
 
@@ -247,21 +252,27 @@ h5 {
   font-size: 2rem;
   font-weight: 700;
   margin-bottom: 2rem;
-  color: #441822; /* Primary dark red */
+  color: #441822;
+  /* Primary dark red */
 }
 
 #support .accordion-button {
   font-weight: 600;
   font-size: 1rem;
-  background-color: #ffffff; /* keep white for contrast */
-  color: #441822; /* primary dark red */
+  background-color: #ffffff;
+  /* keep white for contrast */
+  color: #441822;
+  /* primary dark red */
   transition: background-color 0.2s ease, color 0.2s ease;
-  border: 1px solid #99858A; /* subtle border to match palette */
+  border: 1px solid #99858A;
+  /* subtle border to match palette */
 }
 
 #support .accordion-button:hover {
-  background-color: #99858A; /* medium taupe shade */
-  color: #ffffff; /* white text on hover */
+  background-color: #99858A;
+  /* medium taupe shade */
+  color: #ffffff;
+  /* white text on hover */
 }
 
 #support .accordion-button.collapsed {
@@ -270,14 +281,16 @@ h5 {
 }
 
 #support .accordion-button:not(.collapsed) {
-  background-color: #441822; /* primary dark red when expanded */
+  background-color: #441822;
+  /* primary dark red when expanded */
   color: #ffffff;
   border-color: #441822;
 }
 
 #support .accordion-body {
   font-size: 0.95rem;
-  color: #000706; /* dark text */
+  color: #000706;
+  /* dark text */
 }
 
 #support ul {
@@ -289,12 +302,14 @@ h5 {
 }
 
 #support a {
-  color: #441822; /* dark red links */
+  color: #441822;
+  /* dark red links */
   text-decoration: underline;
 }
 
 #support a:hover {
-  color: #5E5F60; /* muted gray */
+  color: #5E5F60;
+  /* muted gray */
   text-decoration: none;
 }
 
@@ -328,36 +343,75 @@ h5 {
 }
 
 footer .social-icons a {
-  color: #ffffff; /* white by default */
+  color: #ffffff;
+  /* white by default */
   font-size: 0.9rem;
   transition: color 0.3s ease-in-out;
 }
 
 footer .social-icons a:hover {
-  color: #5E5F60; /* grey on hover */
+  color: #5E5F60;
+  /* grey on hover */
 }
 
 .social-icons a:not(:last-child) {
   margin-right: 1rem;
 }
+
 /* Modal Styles */
-  .btn-primary {
-    background-color: #441822;
-    border-color: #441822;
-  }
+.btn-primary {
+  background-color: #441822;
+  border-color: #441822;
+}
 
-  .btn-primary:hover {
-    background-color: #2e1017;
-    border-color: #2e1017;
-  }
+.btn-primary:hover {
+  background-color: #2e1017;
+  border-color: #2e1017;
+}
 
-  .modal-header {
-    border-bottom: none;
-  }
+.modal-header {
+  border-bottom: none;
+}
 
-  .modal-title {
-    font-weight: 600;
-  }
+.modal-title {
+  font-weight: 600;
+}
+/* Custom modal styling */
+.custom-modal {
+  background-color: #99858A;
+  color: white;
+}
+h5.custom-modal {
+  background-color: #99858A;
+  color: white;
+}
+
+.custom-modal .modal-header,
+.custom-modal .modal-body,
+.custom-modal .modal-footer {
+  background-color: #99858A;
+  color: white;
+}
+
+.custom-modal .form-label,
+.custom-modal .form-check-label {
+  color: white;
+}
+
+.custom-modal .form-control {
+  background-color: #fff;
+  color: #000706;
+  border: none;
+}
+
+.custom-modal .form-control::placeholder {
+  color: #666;
+}
+
+.custom-modal .btn-close {
+  filter: invert(1);
+}
+
 
 /*Contact us page */
 
@@ -392,27 +446,37 @@ footer .social-icons a:hover {
 
 
 /* media queries */
+
+/* Responsive padding adjustment if needed */
+@media (max-width: 576px) {
+  .white-box {
+    padding: 1rem;
+  }
+}
 /* Tablet size and up */
 @media (max-width: 768px) {
-   #what-is-safeguarding {
+  #what-is-safeguarding {
     padding: 2rem 1rem;
   }
 
   .social-icons {
     margin-top: 1rem;
   }
+
   .ratio-16x9 iframe {
-        width: 100%;
-        height: 100%;
-    }
+    width: 100%;
+    height: 100%;
+  }
 }
+
 /* Desktop size and up */
 @media (min-width: 992px) {
-    .ratio-16x9 {
-        height: 400px; /* adjust as needed */
-    }
+  .ratio-16x9 {
+    height: 400px;
+    /* adjust as needed */
+  }
 
-    .ratio-16x9 iframe {
-        height: 100%;
-    }
+  .ratio-16x9 iframe {
+    height: 100%;
+  }
 }
