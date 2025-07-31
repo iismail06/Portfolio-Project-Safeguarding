@@ -46,6 +46,7 @@ This website addresses the critical need for accessible safeguarding information
 - Fully responsive layout that works seamlessly across desktop, tablet, and mobile devices  
 - Bootstrap 5 framework ensuring consistent user experience  
 - Mobile-first approach with optimized navigation
+- 🚪 Quick Exit Button
 
 ### Educational Content
 
@@ -295,6 +296,24 @@ The website is designed to be deployed on any static hosting platform:
 2. Enable GitHub Pages in repository settings
 3. Select main branch as source
 4. Access via: `https://username.github.io/repository-name`
+
+## 🚪 Quick Exit Button
+
+This website includes a **Quick Exit** button to enhance user safety and privacy. Since the site contains information related to safeguarding, users may need to leave the page quickly in sensitive or potentially unsafe situations.
+
+The button is:
+
+- Clearly visible at the top-right of every page.
+- Fixed in place so it’s always accessible while scrolling.
+- Designed to **immediately redirect the user** to a neutral website (like BBC Weather), while also opening it in a new tab.
+
+This feature helps users **minimize risk** if someone nearby might see what they’re viewing and become suspicious or controlling.
+
+---
+
+## 🖼️ Image Credits
+
+All images used on this website were sourced from [gratisography](https://gratisography.com/), a platform that offers high-quality, royalty-free photos.
 
 ## License
 

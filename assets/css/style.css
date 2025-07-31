@@ -376,11 +376,13 @@ footer .social-icons a:hover {
 .modal-title {
   font-weight: 600;
 }
+
 /* Custom modal styling */
 .custom-modal {
   background-color: #99858A;
   color: white;
 }
+
 h5.custom-modal {
   background-color: #99858A;
   color: white;
@@ -444,6 +446,34 @@ h5.custom-modal {
   border-color: #5E5F60;
 }
 
+/* Quick Exit Button */
+
+/* Wrapper for placement */
+.quick-exit-wrapper {
+  background-color: #f8f9fa;
+}
+
+/* Button styling */
+.quick-exit-btn {
+  position: fixed;
+  top: 4.5rem; /* Adjust depending on your navbar height */
+  right: 1rem;
+  z-index: 1050;
+  background-color: #441822;
+  color: white;
+  padding: 0.6rem 1.2rem;
+  border-radius: 5px;
+  font-weight: bold;
+  text-decoration: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease;
+}
+
+.quick-exit-btn:hover {
+  background-color: #99858A;
+  color: white;
+}
+
 
 /* media queries */
 
@@ -453,6 +483,7 @@ h5.custom-modal {
     padding: 1rem;
   }
 }
+
 /* Tablet size and up */
 @media (max-width: 768px) {
   #what-is-safeguarding {
