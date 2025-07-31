@@ -160,6 +160,7 @@ Portfolio-Project-Safeguarding/
 - Card-based design for easy content scanning
 
 ## Wireframes & Design Mockups
+
 ### Desktop Screenshot
 
 ![Desktop Screenshot](assets/documentation%20/Screenshot%20of%20wireframe%20of%20desktop.png)
@@ -171,7 +172,6 @@ Portfolio-Project-Safeguarding/
 ### Mobile Screenshot
 
 ![Mobile Screenshot](assets/documentation%20/Screenshot%20of%20wireframe%20moblie%20screen.png)
-### Wireframes and design mockups will be added here when available
 
 ### Website Screenshots
 
@@ -274,6 +274,7 @@ Below is a screenshot showing the successful HTML validation of the project usin
 Below is a screenshot showing the successful CSS validation of the project using the W3C Markup Validator:
 
 ![CSS Validation Screenshot](assets/documentation%20/Screenshot%20of%20W3C%20CSS%20Valdation.png)
+
 - Accessibility testing using WAVE Web Accessibility Evaluator
 
 ### Lighthouse Testing
