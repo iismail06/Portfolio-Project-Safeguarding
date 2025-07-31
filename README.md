@@ -1,7 +1,5 @@
 # GuardsUp - Safeguarding Awareness Website
 
-![GuardsUp Logo](assets/images/logo.png)
-
 GuardsUp is a comprehensive safeguarding awareness website designed to educate, inform, and empower individuals and communities to recognize, respond to, and prevent abuse. The platform serves as a vital resource for understanding safeguarding principles and taking appropriate action when concerns arise.
 
 **GUARDSUP**:  
@@ -140,10 +138,13 @@ Portfolio-Project-Safeguarding/
 
 ### Color Palette
 
+![Color Palette](assets/documentation%20/Screenshot%20color%20pallet.png)
+
+*The color palette above visually represents the primary, secondary, accent, and background colors used throughout the website.*
+
 - **Primary**: #441822 (Deep burgundy) - Authority and trust
 - **Secondary**: #99858A (Warm taupe) - Comfort and approachability  
 - **Accent**: #000706 (Near black) - Readability and contrast
-- **Muted**: #6c757d (Bootstrap muted) - Supporting text
 - **Background**: #f8f9fa (Light gray) - Clean, professional backdrop
 
 ### Typography
@@ -159,16 +160,24 @@ Portfolio-Project-Safeguarding/
 - Card-based design for easy content scanning
 
 ## Wireframes & Design Mockups
+### Desktop Screenshot
 
+![Desktop Screenshot](assets/documentation%20/Screenshot%20of%20wireframe%20of%20desktop.png)
+
+### Tablet Screenshot
+
+![Tablet Screenshot](assets/documentation%20/Screenshot%20of%20wireframe%20for%20table.png)
+
+### Mobile Screenshot
+
+![Mobile Screenshot](assets/documentation%20/Screenshot%20of%20wireframe%20moblie%20screen.png)
 ### Wireframes and design mockups will be added here when available
 
-### Homepage Wireframe
+### Website Screenshots
 
-#### Homepage wireframe will be added here
+Below are screenshots of the GuardsUp website displayed on desktop, tablet, and mobile devices:
 
-### Contact Page Wireframe
-
-#### Contact page wireframe will be added here
+![Screenshot of responsive](assets/documentation%20/Screenshot%20responsive.png)
 
 ## Getting Started
 
@@ -256,8 +265,24 @@ The website adapts seamlessly across all screen sizes with:
 ### Validation
 
 - HTML validation using W3C Markup Validator
+  
+Below is a screenshot showing the successful HTML validation of the project using the W3C Markup Validator:
+
+![HTML Validation Screenshot](assets/documentation%20/Screenshot%20of%20Nu%20Html%20checker%20for%20index%20page.png)
+
 - CSS validation using W3C CSS Validator
+Below is a screenshot showing the successful CSS validation of the project using the W3C Markup Validator:
+
+![CSS Validation Screenshot](assets/documentation%20/Screenshot%20of%20W3C%20CSS%20Valdation.png)
 - Accessibility testing using WAVE Web Accessibility Evaluator
+
+### Lighthouse Testing
+
+Including a screenshot of the Lighthouse test demonstrates that your website meets key standards for performance, accessibility, best practices, and SEO. This provides visual proof to reviewers and potential employers that your project has been evaluated using industry-standard tools and meets quality benchmarks. It also helps identify areas for improvement and showcases your commitment to building robust, user-friendly web applications.
+
+Below is a screenshot of the Lighthouse report for the GuardsUp website:
+
+![Lighthouse Test Screenshot](assets/documentation%20/Screenshot-of-light-house-test.png)
 
 ## Deployment
 
