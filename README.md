@@ -11,7 +11,7 @@ GuardsUp is a comprehensive safeguarding awareness website designed to educate, 
 
 - [Project Overview](#project-overview)
 - [Features](#features)
-- [Technologies Used](#technologies-used)
+- [Frontend](#frontend)
 - [Project Structure](#project-structure)
 - [Design Choices](#design-choices)
 - [Wireframes & Design Mockups](#wireframes--design-mockups)
@@ -61,14 +61,64 @@ This website addresses the critical need for accessible safeguarding information
 - **Mental Health Support**: Links to organizations like Samaritans, Mind, and Childline  
 - **Anonymous Reporting**: Secure contact form for confidential reporting
 
-### User Experience
+## User Stories
 
-- **Intuitive Navigation**: Clear menu structure with smooth scrolling to sections
-- **Visual Hierarchy**: Consistent typography using Poppins and Merriweather fonts
-- **Interactive Elements**: Hover effects, carousel showcase, and accordion-style information
-- **Accessibility**: Semantic HTML structure with proper alt text and ARIA labels
-  
-## Technologies Used
+### Navigation
+
+As a site user, I want to navigate easily through the website so that I can find the information I need.
+
+- Navigation bar is visible at the top of the page.
+- Links to: Home, What is Safeguarding, Signs, Contact Us.
+- Footer includes social media icons (open in new tab) and copyright.
+
+### Clear Message on Safeguarding Importance
+
+As a visitor to the site, I want to immediately see a clear message about the importance of safeguarding so that I know I’m in the right place and feel motivated to learn more.
+
+- Hero at the top of homepage.
+- Bold heading and subheading.
+- "Contact Us" button linking to Contact section.
+
+### Understanding Safeguarding
+
+As a member of the public or someone working with vulnerable groups, I want to clearly understand what safeguarding means, so that I can be aware of its importance and know when it applies.
+
+- Design a section titled “What is Safeguarding?”
+- Include a video link that provides an explanation of "What is Safeguarding?" for further understanding.
+
+### Recognizing Signs and Taking Action
+
+Recognize the Signs and Take the Right Action
+
+- Two sections with clear headings.
+- Common signs of abuse or neglect (e.g. withdrawal, injuries).
+- Clear, supportive action steps (e.g. stay calm, report to proper authorities).
+- Displayed using cards or icon-text combinations in a responsive grid.
+- Uses accessible language and supportive tone.
+- Final action includes signposting to an external resource or emergency contact.
+- Final card links to external help sources.
+
+### Contact and Reporting Concerns
+
+As a concerned user, I want to find contact details or submit a concern easily so that I can take the right action without delay.
+
+- Section titled “Contact Us” or “Report a Concern”.
+- Form fields: name, email, and message optional.
+- Includes field validation and success message.
+
+### Signing Up for Updates
+
+As a regular visitor, I want to sign up for updates so that I can stay informed about new content or training opportunities.
+
+- Newsletter form in footer.
+- Fields: name and email.
+- Styled to match site theme and responsive.
+
+## Project Planning
+
+This project was planned and tracked using a project board to manage tasks and development stages.
+
+![Project Board Screenshot](assets/documentation%20/Screenshot%20of%20user%20story.png)
 
 ### Frontend
 
@@ -308,6 +358,20 @@ The button is:
 - Designed to **immediately redirect the user** to a neutral website (like BBC Weather), while also opening it in a new tab.
 
 This feature helps users **minimize risk** if someone nearby might see what they’re viewing and become suspicious or controlling.
+
+---
+
+## 🔮 Future Work
+
+While the current version of the website meets its core aims, there are several features and enhancements planned for future development:
+
+- Add an **About Us** page to introduce the purpose of the site, its creators, and its mission.
+- Integrate a contact form with real-time validation and secure backend handling.
+- Improve the visual design for mobile-first experiences.
+- Include a resource hub for downloadable safeguarding materials.
+- Add multilingual support to reach a broader audience.
+
+These updates will help create a more informative, supportive, and accessible experience for users.
 
 ---
 
